@@ -1,0 +1,21 @@
+{
+    "author": "ICJR",
+    "dependencies": {
+        "ulidx": "^2.2.1"
+    },
+    "devDependencies": {
+        "@esportsplus/typescript": "^0.0.20",
+        "@types/node": "^20.10.6"
+    },
+    "main": "./build/index.mjs",
+    "name": "@esportsplus/guid",
+    "private": false,
+    "scripts": {
+        "build": "tsc && tsc-alias",
+        "-": "-",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm run build"
+    },
+    "types": "./build/index.d.mts",
+    "version": "0.0.1"
+}
