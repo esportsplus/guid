@@ -1,11 +1,11 @@
 {
     "author": "ICJR",
     "dependencies": {
-        "ulidx": "^2.2.1"
+        "ulidx": "^2.3.0"
     },
     "devDependencies": {
-        "@esportsplus/typescript": "^0.0.20",
-        "@types/node": "^20.10.6"
+        "@esportsplus/typescript": "^0.0.21",
+        "@types/node": "^20.12.8"
     },
     "main": "./build/index.js",
     "name": "@esportsplus/guid",
