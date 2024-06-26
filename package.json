@@ -4,8 +4,8 @@
         "ulidx": "^2.3.0"
     },
     "devDependencies": {
-        "@esportsplus/typescript": "^0.4.5",
-        "@types/node": "^20.14.8"
+        "@esportsplus/typescript": "^0.4.6",
+        "@types/node": "^20.14.9"
     },
     "main": "./build/index.js",
     "name": "@esportsplus/guid",
