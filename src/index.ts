@@ -1,7 +1,8 @@
 import { isValid, ulid } from 'ulidx';
 
 
-export default {
-    generate: ulid,
-    isValid
-};
+const generate = ulid;
+
+
+export default { generate, isValid };
+export { generate, isValid };
