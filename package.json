@@ -4,7 +4,7 @@
         "ulidx": "^2.4.1"
     },
     "devDependencies": {
-        "@esportsplus/typescript": "^0.8.7"
+        "@esportsplus/typescript": "^0.8.11"
     },
     "main": "./build/index.js",
     "name": "@esportsplus/guid",
@@ -12,9 +12,10 @@
     "scripts": {
         "build": "tsc && tsc-alias",
         "-": "-",
-        "prepare": "npm run build",
-        "prepublishOnly": "npm run build"
+        "prepare": "pnpm build",
+        "prepublishOnly": "pnpm build"
     },
+    "type": "module",
     "types": "./build/index.d.ts",
     "version": "0.0.6"
 }
