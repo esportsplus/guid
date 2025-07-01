@@ -6,3 +6,4 @@ const generate = ulid;
 
 export default { generate, isValid };
 export { generate, isValid };
+export * from './types';
