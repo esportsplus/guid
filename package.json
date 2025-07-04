@@ -1,10 +1,21 @@
 {
     "author": "ICJR",
     "dependencies": {
+        "@esportsplus/validation": "^0.3.14",
         "ulidx": "^2.4.1"
     },
     "devDependencies": {
         "@esportsplus/typescript": "^0.8.14"
+    },
+    "exports": {
+        "./validation": {
+            "types": "./build/validation.d.ts",
+            "default": "./build/validation.js"
+        },
+        ".": {
+            "types": "./build/index.d.ts",
+            "default": "./build/index.js"
+        }
     },
     "main": "./build/index.js",
     "name": "@esportsplus/guid",
