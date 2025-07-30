@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@esportsplus/validation':
-        specifier: ^0.3.15
-        version: 0.3.15
+        specifier: ^0.3.17
+        version: 0.3.17
       ulidx:
         specifier: ^2.4.1
         version: 2.4.1
@@ -31,11 +31,11 @@ packages:
     resolution: {integrity: sha512-nx/f0n/z8AhpkuUXYj7t6djDoHgJXII6Sh6xVn4WkOf2d10FzCN133Gwo7BC7RSbfMO7voFuiAPMfkyZQworXA==}
     hasBin: true
 
-  '@esportsplus/utilities@0.9.3':
-    resolution: {integrity: sha512-G70J9vQoEzaNDdUwWBcYj1NPXQfMnVmo+X8Pw4sHZizVN+Q1N+mGTnlHFNsXNNKq1mmQHFD4+wAZCCSGVfFImA==}
+  '@esportsplus/utilities@0.13.2':
+    resolution: {integrity: sha512-4ZthBi2iBUt4u3HD+nH2K4eJ4CArwsmQoucPsQJOIEtKqYlO7ApOJQ/X8CFWt8wvxpf+aL2UQq4HpMNwS5FmwQ==}
 
-  '@esportsplus/validation@0.3.15':
-    resolution: {integrity: sha512-JrghuivnAk5WUIC3bH+tqLgSxOYxmqMhmEdylyzBKwSoejFU5q5PA+LazbD0OprihMwXOlCQv5TWn/0ZXqZSJw==}
+  '@esportsplus/validation@0.3.17':
+    resolution: {integrity: sha512-2XWdz08c2lbNHtMom1906H2wZE8olEDtrBOzuutl1ncCje30JQs271szAxI4+QqFtOnG8aw/yMuuMPImegp/NA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -210,12 +210,12 @@ snapshots:
       tsc-alias: 1.8.16
       typescript: 5.8.3
 
-  '@esportsplus/utilities@0.9.3': {}
+  '@esportsplus/utilities@0.13.2': {}
 
-  '@esportsplus/validation@0.3.15':
+  '@esportsplus/validation@0.3.17':
     dependencies:
       '@esportsplus/action': 0.0.56
-      '@esportsplus/utilities': 0.9.3
+      '@esportsplus/utilities': 0.13.2
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
